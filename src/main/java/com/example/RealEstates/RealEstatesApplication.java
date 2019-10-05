@@ -16,6 +16,8 @@ public class RealEstatesApplication {
 	}
 
 	@PostConstruct
+	//@PostConstruct służy do oznaczenia metody, która ma być wywołania PO zainicjowaniu i utworzeniu instancji danej klasy przez Spring.
+	// W tej klasie ta metoda służy do wypełnienia repozytoriów przykładowymi danymi.
 	public void init(){
 		bootStrap.initializeRepository();
 	}
