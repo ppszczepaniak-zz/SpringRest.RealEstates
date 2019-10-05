@@ -27,3 +27,11 @@ W przypadku wystąpienia ogólnego wyjątku w kodzie aplikacji generowany jest s
 
 
 Dane w przykładowej aplikacji będą przechowane w wewnętrznych kolekcjach.
+
+***
+sample client:  
+{
+    "id": 3,
+    "firstName": "Rick",
+    "lastName": "Sanchez"
+}
