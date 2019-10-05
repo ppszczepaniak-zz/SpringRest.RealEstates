@@ -1,4 +1,4 @@
 package com.example.RealEstates.models;
 
-public class City {
+public enum City {
 }
