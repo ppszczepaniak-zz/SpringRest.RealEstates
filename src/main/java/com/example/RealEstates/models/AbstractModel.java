@@ -4,9 +4,9 @@ public abstract class AbstractModel {
     protected static int lastId = 0;
     protected int id;
 
-    public AbstractModel(int id) {
-        lastId++;
-        this.id = id;
+    protected AbstractModel() {
+        lastId++; //static so counted for any class that extends this abstract class
+        this.id = lastId; //is written for each instance of the class
     }
 
     public int getId() {
