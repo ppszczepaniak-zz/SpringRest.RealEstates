@@ -19,11 +19,11 @@ Oferta – klasa przechowująca dane obiektu
 Klienci – klasa przechowująca dane klienta  
 
 
-Przewidziane są następujące sytuacje wyjątkowe:
+Przewidziane są następujące sytuacje wyjątkowe:  
 	* 
-W przypadku braku oferty, klienta o podanym ID generowany jest status 404
+W przypadku braku oferty, klienta o podanym ID generowany jest status 404  
 	* 
-W przypadku wystąpienia ogólnego wyjątku w kodzie aplikacji generowany jest status 503
+W przypadku wystąpienia ogólnego wyjątku w kodzie aplikacji generowany jest status 503  
 
 
 Dane w przykładowej aplikacji będą przechowane w wewnętrznych kolekcjach.
