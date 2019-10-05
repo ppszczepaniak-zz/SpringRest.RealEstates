@@ -8,15 +8,15 @@ dodanie, usunięcie, skasowanie, modyfikację oferty
 dodanie, usunięcie, skasowanie, modyfikację danych klienta
 
 
-W aplikacji wyróżniamy następujące klasy dziedzinowe:
+W aplikacji wyróżniamy następujące klasy dziedzinowe:  
 	* 
-Typ nieruchomości – typ enum
+Typ nieruchomości – typ enum  
 	* 
-Miejscowość – dla uproszczenia przyjęto typ enum, w normalnej aplikacji będzie to wartość pobierana z bazy danych
+Miejscowość – dla uproszczenia przyjęto typ enum, w normalnej aplikacji będzie to wartość pobierana z bazy danych  
 	* 
-Oferta – klasa przechowująca dane obiektu
+Oferta – klasa przechowująca dane obiektu  
 	* 
-Klienci – klasa przechowująca dane klienta
+Klienci – klasa przechowująca dane klienta  
 
 
 Przewidziane są następujące sytuacje wyjątkowe:
