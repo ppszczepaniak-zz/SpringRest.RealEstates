@@ -1,9 +1,9 @@
 # SpringRest.RealEstates
 2nd Demo Spring Rest App for Real Estates 
 
-API będzie realizowało następujące cele biznesowe:
+API będzie realizowało następujące cele biznesowe:  
 	* 
-dodanie, usunięcie, skasowanie, modyfikację oferty
+dodanie, usunięcie, skasowanie, modyfikację oferty  
 	* 
 dodanie, usunięcie, skasowanie, modyfikację danych klienta
 
