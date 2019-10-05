@@ -13,7 +13,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 
 
-    //TODO obczaic to
+    //TODO obczaic to: @ControllerAdvice oraz @ExceptionHandler
     @ExceptionHandler(value = {IllegalArgumentException.class})
     @ResponseBody
     protected ResponseEntity<Object> handleIllegalArgumentException(RuntimeException ex, WebRequest request) {
