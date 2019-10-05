@@ -2,9 +2,11 @@ package com.example.RealEstates.services;
 
 import com.example.RealEstates.models.Client;
 import com.example.RealEstates.repositories.ClientRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class ClientService {
 
     private ClientRepository clientRepository;
